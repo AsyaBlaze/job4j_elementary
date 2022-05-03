@@ -7,7 +7,7 @@ public class Max {
     }
 
     public static void main(String[] args) {
-        int rsl = max(1, 2);
+        int rsl = max(4, 3);
         System.out.println("Наибольшее число: " + rsl);
     }
 }
