@@ -34,7 +34,7 @@ public class MaxTest {
     @Test
     public void whenMax2To6Then3() {
         int left = 2;
-        int right = 6;
+        int right = 8;
         int result = Max.max(left, right);
         int expected = 6;
         Assert.assertEquals(result, expected);
