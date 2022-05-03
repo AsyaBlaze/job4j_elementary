@@ -17,7 +17,7 @@ public class ChessBoardTest {
 
     @Test
     public void wayIs7() {
-        int x1 = 7;
+        int x1 = 4;
         int y1 = 0;
         int x2 = 0;
         int y2 = 7;
