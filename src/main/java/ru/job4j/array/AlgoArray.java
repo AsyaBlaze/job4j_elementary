@@ -3,11 +3,10 @@ package ru.job4j.array;
 public class AlgoArray {
     public static int[] exchange(int[] massiv, int first, int second) {
         int temp = 0;
-        for (int index = 0; index < massiv.length; index++) {
-            temp = massiv[first];
-            massiv[first] = massiv[second];
-            massiv[second] = temp;
-        }
+        temp = massiv[first];
+        massiv[first] = massiv[second];
+        massiv[second] = temp;
+
     return massiv;
     }
 
