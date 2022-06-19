@@ -2,8 +2,7 @@ package ru.job4j.array;
 
 public class AlgoArray {
     public static int[] exchange(int[] massiv, int first, int second) {
-        int temp = 0;
-        temp = massiv[first];
+        int temp = massiv[first];
         massiv[first] = massiv[second];
         massiv[second] = temp;
 
