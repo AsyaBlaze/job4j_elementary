@@ -5,7 +5,6 @@ public class AlgoArray {
         int temp = massiv[first];
         massiv[first] = massiv[second];
         massiv[second] = temp;
-
     return massiv;
     }
 
@@ -14,7 +13,6 @@ public class AlgoArray {
         exchange(array, 0, 3);
         exchange(array, 1, 2);
         exchange(array, 3, 4);
-
         for (int index = 0; index < array.length; index++) {
             System.out.println(array[index]);
         }

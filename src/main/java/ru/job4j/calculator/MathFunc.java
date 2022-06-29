@@ -19,6 +19,5 @@ public class MathFunc {
         int result3 = func1(100);
         System.out.println(total);
         System.out.print(result3);
-
     }
 }
